@@ -1,6 +1,146 @@
 
+Escribimos 39 en el bus i2c para hablar con el esclavo.
 
-[16/10/2016 19:40:16]
-Escribimos 54 en el bus i2c para hablar con el esclavo.
-Escribimos 55 en el bus i2c para hablar con el esclavo.
+***************************************************************************************
+
+[18/10/2016 0:37:59]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
 Leemos 4 bytes del esclavo.
+- Byte 0: -141-
+- Byte 1: -70-
+- Byte 2: -145-
+- Byte 3: -15-
+Status= 0
+Temperatura = 25.135820
+ - LED OFF
+Humedad = 51.910633
+ - GREEN
+
+***************************************************************************************
+
+[18/10/2016 0:38:2]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -141-
+- Byte 1: -70-
+- Byte 2: -145-
+- Byte 3: -15-
+Status= 0
+Temperatura = 25.135820
+ - LED OFF
+Humedad = 51.910633
+ - GREEN
+
+***************************************************************************************
+
+[18/10/2016 0:38:5]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -141-
+- Byte 1: -70-
+- Byte 2: -145-
+- Byte 3: -1-
+Status= 0
+Temperatura = 25.105604
+ - LED OFF
+Humedad = 51.910633
+ - GREEN
+
+***************************************************************************************
+
+[18/10/2016 0:38:8]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -141-
+- Byte 1: -100-
+- Byte 2: -144-
+- Byte 3: -371-
+Status= 0
+Temperatura = 25.085459
+ - LED OFF
+Humedad = 51.959469
+ - GREEN
+
+***************************************************************************************
+
+[18/10/2016 0:38:11]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -141-
+- Byte 1: -110-
+- Byte 2: -144-
+- Byte 3: -365-
+Status= 0
+Temperatura = 25.075388
+ - LED OFF
+Humedad = 52.008301
+ - GREEN
+
+***************************************************************************************
+
+[18/10/2016 0:38:14]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -141-
+- Byte 1: -120-
+- Byte 2: -144-
+- Byte 3: -351-
+Status= 0
+Temperatura = 25.045172
+ - LED OFF
+Humedad = 52.057137
+ - GREEN
+
+***************************************************************************************
+
+[18/10/2016 0:38:17]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -141-
+- Byte 1: -134-
+- Byte 2: -144-
+- Byte 3: -345-
+Status= 0
+Temperatura = 25.035099
+ - LED OFF
+Humedad = 52.130386
+ - GREEN
+
+***************************************************************************************
+
+[18/10/2016 0:38:20]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -141-
+- Byte 1: -150-
+- Byte 2: -144-
+- Byte 3: -351-
+Status= 0
+Temperatura = 25.045172
+ - LED OFF
+Humedad = 52.203640
+ - GREEN
+
+***************************************************************************************
+
+[18/10/2016 0:38:23]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -141-
+- Byte 1: -160-
+- Byte 2: -144-
+- Byte 3: -361-
+Status= 0
+Temperatura = 25.065315
+ - LED OFF
+Humedad = 52.252472
+ - GREEN
