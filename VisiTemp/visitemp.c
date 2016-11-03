@@ -12,6 +12,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <math.h>
+#include <geniePi.h>
 
 
 #define ADC1 0x27
@@ -22,6 +23,7 @@
 
 #define ALARMA_TEMPERATURA 27
 
+int alarmaTemperatura;
 
 
 // Devuelve true o false según el bit sea 1 o 0
@@ -31,7 +33,9 @@ int getBit (int n, int pos){
     return b;
 }
 
-int main (void){
+
+//Hilo para manejar el sensor y LEDS
+static void *handleSensor(void *data){
 
     float temperatura=0;
     float humedad=0;
@@ -62,6 +66,40 @@ int main (void){
         return -1;
     }
 
+
+/***************************************************
+//Test 
+    genieWriteObj(GENIE_OBJ_FORM, 0, 0);
+
+//digitos temperatura 
+    genieWriteObj(GENIE_OBJ_CUSTOM_DIGITS, 0x00, ALARMA_TEMPERATURA);
+    printf("\n custom_digits");
+
+// digitos hora verde 
+    genieWriteObj(GENIE_OBJ_LED_DIGITS, 0x00, 8888);
+    printf("\n led_digits");
+
+// digitos hora rojo 
+    genieWriteObj(GENIE_OBJ_LED_DIGITS, 0x01, 99);
+    printf("\n led_digits");
+
+//knob temperatura 
+    genieWriteObj(GENIE_OBJ_KNOB, 0x00, ALARMA_TEMPERATURA);
+    printf("\n GENIE_OBJ_KNOB");
+
+//humedad
+    genieWriteObj(GENIE_OBJ_METER, 0x00, 100);
+    printf("\n GENIE_OBJ_METER");
+
+//temperatura 
+    int iniTemp=25;
+    genieWriteObj(GENIE_OBJ_ANGULAR_METER, 0x00, 30+iniTemp);
+    printf("\n GENIE_OBJ_ANGULAR_METER");
+
+//user led 
+    genieWriteObj(GENIE_OBJ_USER_LED, 0x00, 1);
+    printf("\n GENIE_OBJ_USER_LED");
+*****************************************************/
 
     // Especificamos la dirección del sensor (esclavo) con el que queremos establecer comunicación
     // Si hubiese más de un esclavo, tendriamos que repetir esta operación cada vez que quisiesemos
@@ -146,6 +184,8 @@ int main (void){
                 humedad=(float)(((buffer[0]&0b00111111)<<8)+buffer[1]);
                 humedad=(humedad/(pow(2,14)-2))*100;
 
+                genieWriteObj(GENIE_OBJ_METER, 0x00, humedad);
+
                 // El rango para la temperatura es de -40ºC a 125ºC.
                 // Se representa con 14 bits (8 del byte 2 y 6 del byte 3).
                 // Los dos ultimos bits del byte 3 no tienen uso.
@@ -153,13 +193,17 @@ int main (void){
                 temperatura=(float)(((buffer[2]<<8)+buffer[3])>>2);
                 temperatura=(temperatura/(pow(2,14)-2))*165-40;
 
-                //Si temperatura > 27 -> led ON
+                genieWriteObj(GENIE_OBJ_ANGULAR_METER, 0x00, temperatura);
+
+                //Si temperatura > alarmaTemperatura -> led ON
                 printf("\nTemperatura = %f",temperatura);
-                if (temperatura>27) {
+                if (temperatura>alamarmaTemperatura) {
                     digitalWrite(PIN_LED, HIGH);
+                    genieWriteObj(GENIE_OBJ_USER_LED, 0x00, 1)
                     printf("\n - LED ON");
                 } else {
                     digitalWrite(PIN_LED, LOW);
+                    genieWriteObj(GENIE_OBJ_USER_LED, 0x00, 0)
                     printf("\n - LED OFF");
                 }
 
@@ -186,8 +230,6 @@ int main (void){
                 }
 
             }
-
-
         }
 
         fflush(stdout);
@@ -197,5 +239,92 @@ int main (void){
     }
 
     close(file);
+    return 0;
+}
+
+
+//Procesamos los mensajes recibidos del display  
+void handleGenieEvent(struct genieReplyStruct * reply) {
+    //Si es un evento reconocido 
+    if(reply->cmd == GENIE_REPORT_EVENT) {
+        // ... del tipo knob -> sincronizamos/actualizamos los digitos del display con el dato temperatura que nos suministra
+        if(reply->object == GENIE_OBJ_KNOB){
+            alarmaTemperatura = reply->data;
+            genieWriteObj(GENIE_OBJ_LED_DIGITS, 0x02, alarmaTemperatura);
+        }
+    } else {
+         printf("Evento desconocido: comando: %2d, objeto: %2d, indice: %d, data: %d \r\n", reply->cmd, reply->object, reply->index, reply->data);
+    }
+}
+ 
+//Thread de manejo del reloj
+static void *handleClock(void *data)
+{
+    int seconds = 0;
+    int hours = 0;
+    time_t timer;
+    struct tm* tm_info;
+ 
+    // Arrancamos un bucle infinito
+    for(;;)             
+    {
+        time(&timer);
+        tm_info = localtime(&timer);
+        seconds = tm_info->tm_sec;
+        hours = (tm_info->tm_hour * 100) + tm_info->tm_min;
+ 
+        //Actualizamos los digitos del reloj del display con la hora y los segundos
+        genieWriteObj(GENIE_OBJ_LED_DIGITS, 0x00, seconds);
+        genieWriteObj(GENIE_OBJ_LED_DIGITS, 0x01, hours);
+ 
+        usleep(1000000);    //Esperamos 1 segundo
+ 
+    }
+    return NULL;
+}
+
+// Programa principal
+int main (void) {
+
+    // Hilo para el rejoj
+    pthread_t relojThread;
+
+    // hHilo para el sensr
+    pthread_t sensorThread;
+
+    // Struct de tipo genieReplyStruct
+    struct genieReplyStruct reply ;
+ 
+    printf("\n\n");
+    printf("Visi-Genie && Raspberry-Pi -> Sensorizacion de Temperatura & Humedad\n");
+    printf("====================================================================\n");
+ 
+    //Se abre el puerto serie de la Raspberry Pi a 115200
+    //El programa del display Visi-Genie debe haber sido generado para trabajar a los mismos baudios
+    genieSetup("/dev/ttyAMA0", 115200);
+
+    //Inicializamos los displays de la pantalla (knob y digitos del led) al valor de alarma inicial de por defecto
+    alarmaTemperatura= ALARMA_TEMPERATURA;
+    genieWriteObj(GENIE_OBJ_LED_DIGITS, 0x02, alarmaTemperatura);
+    genieWriteObj(GENIE_OBJ_KNOB, 0x00, alarmaTemperatura);
+ 
+    //Arrancamos un hilo para la escritura en el reloj
+    (void)pthread_create (&clockThread,  NULL, handleClock, NULL);
+
+    //Arrancamos un hilo para la escritura de los sensores 
+    (void)pthread_create (&sensorThread,  NULL, handleSensor, NULL);
+ 
+    //Arrancamos un bucle infinito
+    for(;;) {
+        // Esperamos hasta que haya algun mensaje del display
+        while(genieReplyAvail()) {
+            // Cuando haya algun mensaje (uno o mas), extraemos uno del buffer de eventos
+            genieGetReply(&reply);
+            //Llamamos al manejador de eventos para que procese el mensaje que hemos extraido
+            handleGenieEvent(&reply);
+        }
+        //Esperamos 10 milisegundos para no saturar a la raspberry
+        usleep(10000); 
+    }                                   
     return 0;
 }

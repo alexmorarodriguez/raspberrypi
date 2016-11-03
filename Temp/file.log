@@ -3,144 +3,1495 @@ Escribimos 39 en el bus i2c para hablar con el esclavo.
 
 ***************************************************************************************
 
-[18/10/2016 0:37:59]
+[3/11/2016 4:22:58]
 Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
 Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
 Leemos 4 bytes del esclavo.
-- Byte 0: -141-
-- Byte 1: -70-
+- Byte 0: -132-
+- Byte 1: -336-
 - Byte 2: -145-
-- Byte 3: -15-
+- Byte 3: -35-
 Status= 0
-Temperatura = 25.135820
+Temperatura = 25.176107
  - LED OFF
-Humedad = 51.910633
+Humedad = 41.985107
  - GREEN
 
 ***************************************************************************************
 
-[18/10/2016 0:38:2]
+[3/11/2016 4:23:1]
 Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
 Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
 Leemos 4 bytes del esclavo.
-- Byte 0: -141-
-- Byte 1: -70-
+- Byte 0: -132-
+- Byte 1: -332-
 - Byte 2: -145-
-- Byte 3: -15-
+- Byte 3: -21-
 Status= 0
-Temperatura = 25.135820
+Temperatura = 25.145891
  - LED OFF
-Humedad = 51.910633
+Humedad = 41.960690
  - GREEN
 
 ***************************************************************************************
 
-[18/10/2016 0:38:5]
+[3/11/2016 4:23:4]
 Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
 Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
 Leemos 4 bytes del esclavo.
-- Byte 0: -141-
-- Byte 1: -70-
+- Byte 0: -132-
+- Byte 1: -336-
 - Byte 2: -145-
 - Byte 3: -1-
 Status= 0
 Temperatura = 25.105604
  - LED OFF
-Humedad = 51.910633
+Humedad = 41.985107
  - GREEN
 
 ***************************************************************************************
 
-[18/10/2016 0:38:8]
+[3/11/2016 4:23:7]
 Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
 Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
 Leemos 4 bytes del esclavo.
-- Byte 0: -141-
-- Byte 1: -100-
-- Byte 2: -144-
-- Byte 3: -371-
-Status= 0
-Temperatura = 25.085459
- - LED OFF
-Humedad = 51.959469
- - GREEN
-
-***************************************************************************************
-
-[18/10/2016 0:38:11]
-Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
-Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
-Leemos 4 bytes del esclavo.
-- Byte 0: -141-
-- Byte 1: -110-
-- Byte 2: -144-
-- Byte 3: -365-
-Status= 0
-Temperatura = 25.075388
- - LED OFF
-Humedad = 52.008301
- - GREEN
-
-***************************************************************************************
-
-[18/10/2016 0:38:14]
-Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
-Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
-Leemos 4 bytes del esclavo.
-- Byte 0: -141-
-- Byte 1: -120-
-- Byte 2: -144-
-- Byte 3: -351-
-Status= 0
-Temperatura = 25.045172
- - LED OFF
-Humedad = 52.057137
- - GREEN
-
-***************************************************************************************
-
-[18/10/2016 0:38:17]
-Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
-Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
-Leemos 4 bytes del esclavo.
-- Byte 0: -141-
-- Byte 1: -134-
-- Byte 2: -144-
-- Byte 3: -345-
-Status= 0
-Temperatura = 25.035099
- - LED OFF
-Humedad = 52.130386
- - GREEN
-
-***************************************************************************************
-
-[18/10/2016 0:38:20]
-Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
-Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
-Leemos 4 bytes del esclavo.
-- Byte 0: -141-
-- Byte 1: -150-
-- Byte 2: -144-
-- Byte 3: -351-
-Status= 0
-Temperatura = 25.045172
- - LED OFF
-Humedad = 52.203640
- - GREEN
-
-***************************************************************************************
-
-[18/10/2016 0:38:23]
-Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
-Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
-Leemos 4 bytes del esclavo.
-- Byte 0: -141-
-- Byte 1: -160-
+- Byte 0: -132-
+- Byte 1: -352-
 - Byte 2: -144-
 - Byte 3: -361-
 Status= 0
 Temperatura = 25.065315
  - LED OFF
-Humedad = 52.252472
+Humedad = 42.058357
  - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:10]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -376-
+- Byte 2: -144-
+- Byte 3: -341-
+Status= 0
+Temperatura = 25.025028
+ - LED OFF
+Humedad = 42.180443
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:13]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -13-
+- Byte 2: -144-
+- Byte 3: -331-
+Status= 0
+Temperatura = 25.004883
+ - LED OFF
+Humedad = 42.259796
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:16]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -33-
+- Byte 2: -144-
+- Byte 3: -315-
+Status= 0
+Temperatura = 24.974667
+ - LED OFF
+Humedad = 42.357464
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:19]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -47-
+- Byte 2: -144-
+- Byte 3: -305-
+Status= 0
+Temperatura = 24.954523
+ - LED OFF
+Humedad = 42.430717
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:22]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -63-
+- Byte 2: -144-
+- Byte 3: -271-
+Status= 0
+Temperatura = 24.924307
+ - LED OFF
+Humedad = 42.503967
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:25]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -77-
+- Byte 2: -144-
+- Byte 3: -251-
+Status= 0
+Temperatura = 24.884020
+ - LED OFF
+Humedad = 42.577217
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:28]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -113-
+- Byte 2: -144-
+- Byte 3: -241-
+Status= 0
+Temperatura = 24.863874
+ - LED OFF
+Humedad = 42.650471
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:31]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -123-
+- Byte 2: -144-
+- Byte 3: -215-
+Status= 0
+Temperatura = 24.813515
+ - LED OFF
+Humedad = 42.699303
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:34]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -133-
+- Byte 2: -144-
+- Byte 3: -201-
+Status= 0
+Temperatura = 24.783298
+ - LED OFF
+Humedad = 42.748138
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:37]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -147-
+- Byte 2: -144-
+- Byte 3: -161-
+Status= 0
+Temperatura = 24.743011
+ - LED OFF
+Humedad = 42.821388
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:40]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -170-
+- Byte 2: -144-
+- Byte 3: -151-
+Status= 0
+Temperatura = 24.722866
+ - LED OFF
+Humedad = 42.925163
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:43]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -174-
+- Byte 2: -144-
+- Byte 3: -135-
+Status= 0
+Temperatura = 24.692650
+ - LED OFF
+Humedad = 42.949577
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:46]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -214-
+- Byte 2: -144-
+- Byte 3: -115-
+Status= 0
+Temperatura = 24.652363
+ - LED OFF
+Humedad = 43.047249
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:49]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -224-
+- Byte 2: -144-
+- Byte 3: -101-
+Status= 0
+Temperatura = 24.622147
+ - LED OFF
+Humedad = 43.096081
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:52]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -234-
+- Byte 2: -144-
+- Byte 3: -61-
+Status= 0
+Temperatura = 24.581858
+ - LED OFF
+Humedad = 43.144917
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:55]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -254-
+- Byte 2: -144-
+- Byte 3: -51-
+Status= 0
+Temperatura = 24.561714
+ - LED OFF
+Humedad = 43.242584
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:23:58]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -264-
+- Byte 2: -144-
+- Byte 3: -41-
+Status= 0
+Temperatura = 24.541571
+ - LED OFF
+Humedad = 43.291416
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:1]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -300-
+- Byte 2: -144-
+- Byte 3: -25-
+Status= 0
+Temperatura = 24.511354
+ - LED OFF
+Humedad = 43.364670
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:4]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -304-
+- Byte 2: -144-
+- Byte 3: -25-
+Status= 0
+Temperatura = 24.511354
+ - LED OFF
+Humedad = 43.389084
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:7]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -310-
+- Byte 2: -144-
+- Byte 3: -21-
+Status= 0
+Temperatura = 24.501282
+ - LED OFF
+Humedad = 43.413502
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:10]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -320-
+- Byte 2: -144-
+- Byte 3: -15-
+Status= 0
+Temperatura = 24.491209
+ - LED OFF
+Humedad = 43.462337
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:13]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -330-
+- Byte 2: -144-
+- Byte 3: -15-
+Status= 0
+Temperatura = 24.491209
+ - LED OFF
+Humedad = 43.511169
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:16]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -340-
+- Byte 2: -144-
+- Byte 3: -5-
+Status= 0
+Temperatura = 24.471066
+ - LED OFF
+Humedad = 43.560005
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:19]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -344-
+- Byte 2: -143-
+- Byte 3: -371-
+Status= 0
+Temperatura = 24.440849
+ - LED OFF
+Humedad = 43.584423
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:22]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -350-
+- Byte 2: -143-
+- Byte 3: -371-
+Status= 0
+Temperatura = 24.440849
+ - LED OFF
+Humedad = 43.608837
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:25]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -361-
+- Byte 2: -143-
+- Byte 3: -361-
+Status= 0
+Temperatura = 24.420706
+ - LED OFF
+Humedad = 43.663776
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:28]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -371-
+- Byte 2: -143-
+- Byte 3: -351-
+Status= 0
+Temperatura = 24.400562
+ - LED OFF
+Humedad = 43.712612
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:31]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -1-
+- Byte 2: -143-
+- Byte 3: -351-
+Status= 0
+Temperatura = 24.400562
+ - LED OFF
+Humedad = 43.761444
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:34]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -11-
+- Byte 2: -143-
+- Byte 3: -345-
+Status= 0
+Temperatura = 24.390490
+ - LED OFF
+Humedad = 43.810280
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:37]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -11-
+- Byte 2: -143-
+- Byte 3: -345-
+Status= 0
+Temperatura = 24.390490
+ - LED OFF
+Humedad = 43.810280
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:40]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -21-
+- Byte 2: -143-
+- Byte 3: -335-
+Status= 0
+Temperatura = 24.370346
+ - LED OFF
+Humedad = 43.859112
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:43]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -15-
+- Byte 2: -143-
+- Byte 3: -331-
+Status= 0
+Temperatura = 24.360273
+ - LED OFF
+Humedad = 43.834698
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:46]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -21-
+- Byte 2: -143-
+- Byte 3: -331-
+Status= 0
+Temperatura = 24.360273
+ - LED OFF
+Humedad = 43.859112
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:49]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -21-
+- Byte 2: -143-
+- Byte 3: -331-
+Status= 0
+Temperatura = 24.360273
+ - LED OFF
+Humedad = 43.859112
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:52]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -155-
+- Byte 2: -143-
+- Byte 3: -351-
+Status= 0
+Temperatura = 24.400562
+ - LED OFF
+Humedad = 44.420704
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:55]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -135-
+- Byte 1: -317-
+- Byte 2: -143-
+- Byte 3: -371-
+Status= 0
+Temperatura = 24.440849
+ - LED OFF
+Humedad = 46.581615
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:24:58]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -136-
+- Byte 1: -130-
+- Byte 2: -144-
+- Byte 3: -15-
+Status= 0
+Temperatura = 24.491209
+ - LED OFF
+Humedad = 47.417896
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:1]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -57-
+- Byte 2: -144-
+- Byte 3: -235-
+Status= 0
+Temperatura = 24.853804
+ - LED OFF
+Humedad = 42.479549
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:4]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -177-
+- Byte 1: -377-
+- Byte 2: -377-
+- Byte 3: -375-
+Status= 0
+Temperatura = 125.010071
+ - LED ON
+Humedad = 100.006104
+ - BLUE
+
+***************************************************************************************
+
+[3/11/2016 4:25:7]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -177-
+- Byte 1: -377-
+- Byte 2: -377-
+- Byte 3: -375-
+Status= 0
+Temperatura = 125.010071
+ - LED ON
+Humedad = 100.006104
+ - BLUE
+
+***************************************************************************************
+
+[3/11/2016 4:25:10]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -177-
+- Byte 1: -377-
+- Byte 2: -377-
+- Byte 3: -375-
+Status= 0
+Temperatura = 125.010071
+ - LED ON
+Humedad = 100.006104
+ - BLUE
+
+***************************************************************************************
+
+[3/11/2016 4:25:13]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -177-
+- Byte 1: -377-
+- Byte 2: -377-
+- Byte 3: -375-
+Status= 0
+Temperatura = 125.010071
+ - LED ON
+Humedad = 100.006104
+ - BLUE
+
+***************************************************************************************
+
+[3/11/2016 4:25:16]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -177-
+- Byte 1: -377-
+- Byte 2: -377-
+- Byte 3: -375-
+Status= 0
+Temperatura = 125.010071
+ - LED ON
+Humedad = 100.006104
+ - BLUE
+
+***************************************************************************************
+
+[3/11/2016 4:25:19]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -151-
+- Byte 1: -143-
+- Byte 2: -150-
+- Byte 3: -351-
+Status= 0
+Temperatura = 27.623611
+ - LED ON
+Humedad = 64.674644
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:22]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -141-
+- Byte 1: -270-
+- Byte 2: -147-
+- Byte 3: -215-
+Status= 0
+Temperatura = 26.747345
+ - LED OFF
+Humedad = 52.691978
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:25]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -135-
+- Byte 1: -333-
+- Byte 2: -147-
+- Byte 3: -55-
+Status= 0
+Temperatura = 26.505615
+ - LED OFF
+Humedad = 46.654865
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:28]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -5-
+- Byte 2: -146-
+- Byte 3: -371-
+Status= 0
+Temperatura = 26.374680
+ - LED OFF
+Humedad = 43.785862
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:31]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -111-
+- Byte 2: -146-
+- Byte 3: -331-
+Status= 0
+Temperatura = 26.294104
+ - LED OFF
+Humedad = 44.200951
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:34]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -15-
+- Byte 2: -146-
+- Byte 3: -275-
+Status= 0
+Temperatura = 26.223598
+ - LED OFF
+Humedad = 43.834698
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:37]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -123-
+- Byte 2: -146-
+- Byte 3: -211-
+Status= 0
+Temperatura = 26.092663
+ - LED OFF
+Humedad = 42.699303
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:40]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -346-
+- Byte 2: -146-
+- Byte 3: -155-
+Status= 0
+Temperatura = 26.022158
+ - LED OFF
+Humedad = 42.033939
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:43]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -236-
+- Byte 2: -146-
+- Byte 3: -111-
+Status= 0
+Temperatura = 25.931511
+ - LED OFF
+Humedad = 41.594433
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:46]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -171-
+- Byte 2: -146-
+- Byte 3: -41-
+Status= 0
+Temperatura = 25.830790
+ - LED OFF
+Humedad = 41.368576
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:49]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -103-
+- Byte 2: -146-
+- Byte 3: -25-
+Status= 0
+Temperatura = 25.800573
+ - LED OFF
+Humedad = 42.601635
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:52]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -113-
+- Byte 2: -145-
+- Byte 3: -365-
+Status= 0
+Temperatura = 25.719997
+ - LED OFF
+Humedad = 42.650471
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:55]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -43-
+- Byte 2: -145-
+- Byte 3: -331-
+Status= 0
+Temperatura = 25.649494
+ - LED OFF
+Humedad = 42.406300
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:25:58]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -372-
+- Byte 2: -145-
+- Byte 3: -311-
+Status= 0
+Temperatura = 25.609205
+ - LED OFF
+Humedad = 42.156025
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:1]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -346-
+- Byte 2: -145-
+- Byte 3: -261-
+Status= 0
+Temperatura = 25.548773
+ - LED OFF
+Humedad = 42.033939
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:4]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -332-
+- Byte 2: -145-
+- Byte 3: -261-
+Status= 0
+Temperatura = 25.548773
+ - LED OFF
+Humedad = 41.960690
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:7]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -312-
+- Byte 2: -145-
+- Byte 3: -255-
+Status= 0
+Temperatura = 25.538700
+ - LED OFF
+Humedad = 41.863022
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:10]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -272-
+- Byte 2: -145-
+- Byte 3: -221-
+Status= 0
+Temperatura = 25.468197
+ - LED OFF
+Humedad = 41.765350
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:13]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -256-
+- Byte 2: -145-
+- Byte 3: -211-
+Status= 0
+Temperatura = 25.448053
+ - LED OFF
+Humedad = 41.692101
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:16]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -252-
+- Byte 2: -145-
+- Byte 3: -201-
+Status= 0
+Temperatura = 25.427908
+ - LED OFF
+Humedad = 41.667683
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:19]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -266-
+- Byte 2: -145-
+- Byte 3: -165-
+Status= 0
+Temperatura = 25.397692
+ - LED OFF
+Humedad = 41.740936
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:22]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -132-
+- Byte 1: -346-
+- Byte 2: -145-
+- Byte 3: -161-
+Status= 0
+Temperatura = 25.387621
+ - LED OFF
+Humedad = 42.033939
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:25]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -107-
+- Byte 2: -145-
+- Byte 3: -175-
+Status= 0
+Temperatura = 25.417837
+ - LED OFF
+Humedad = 42.626053
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:28]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -31-
+- Byte 2: -145-
+- Byte 3: -175-
+Status= 0
+Temperatura = 25.417837
+ - LED OFF
+Humedad = 43.907948
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:31]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -342-
+- Byte 2: -145-
+- Byte 3: -221-
+Status= 0
+Temperatura = 25.468197
+ - LED OFF
+Humedad = 45.134903
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:34]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -135-
+- Byte 1: -157-
+- Byte 2: -145-
+- Byte 3: -241-
+Status= 0
+Temperatura = 25.508486
+ - LED OFF
+Humedad = 45.995605
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:37]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -135-
+- Byte 1: -247-
+- Byte 2: -145-
+- Byte 3: -255-
+Status= 0
+Temperatura = 25.538700
+ - LED OFF
+Humedad = 46.337444
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:40]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -135-
+- Byte 1: -12-
+- Byte 2: -145-
+- Byte 3: -255-
+Status= 0
+Temperatura = 25.538700
+ - LED OFF
+Humedad = 45.379074
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:43]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -121-
+- Byte 2: -145-
+- Byte 3: -255-
+Status= 0
+Temperatura = 25.538700
+ - LED OFF
+Humedad = 44.249786
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:46]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -274-
+- Byte 2: -145-
+- Byte 3: -255-
+Status= 0
+Temperatura = 25.538700
+ - LED OFF
+Humedad = 43.340252
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:49]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -200-
+- Byte 2: -145-
+- Byte 3: -255-
+Status= 0
+Temperatura = 25.538700
+ - LED OFF
+Humedad = 42.973995
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:52]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -161-
+- Byte 2: -145-
+- Byte 3: -265-
+Status= 0
+Temperatura = 25.558846
+ - LED OFF
+Humedad = 44.445122
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:55]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -246-
+- Byte 2: -145-
+- Byte 3: -275-
+Status= 0
+Temperatura = 25.578989
+ - LED OFF
+Humedad = 44.768650
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:26:58]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -135-
+- Byte 1: -73-
+- Byte 2: -145-
+- Byte 3: -311-
+Status= 0
+Temperatura = 25.609205
+ - LED OFF
+Humedad = 45.678185
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:1]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -336-
+- Byte 2: -145-
+- Byte 3: -321-
+Status= 0
+Temperatura = 25.629349
+ - LED OFF
+Humedad = 45.110489
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:4]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -131-
+- Byte 2: -145-
+- Byte 3: -331-
+Status= 0
+Temperatura = 25.649494
+ - LED OFF
+Humedad = 44.298622
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:7]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -350-
+- Byte 2: -145-
+- Byte 3: -331-
+Status= 0
+Temperatura = 25.649494
+ - LED OFF
+Humedad = 43.608837
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:10]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -153-
+- Byte 2: -145-
+- Byte 3: -315-
+Status= 0
+Temperatura = 25.619278
+ - LED OFF
+Humedad = 42.845806
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:13]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -53-
+- Byte 2: -145-
+- Byte 3: -311-
+Status= 0
+Temperatura = 25.609205
+ - LED OFF
+Humedad = 42.455135
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:16]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -53-
+- Byte 2: -145-
+- Byte 3: -301-
+Status= 0
+Temperatura = 25.589062
+ - LED OFF
+Humedad = 42.455135
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:19]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -234-
+- Byte 2: -145-
+- Byte 3: -311-
+Status= 0
+Temperatura = 25.609205
+ - LED OFF
+Humedad = 43.144917
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:22]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -224-
+- Byte 2: -145-
+- Byte 3: -301-
+Status= 0
+Temperatura = 25.589062
+ - LED OFF
+Humedad = 43.096081
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:25]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -113-
+- Byte 2: -145-
+- Byte 3: -311-
+Status= 0
+Temperatura = 25.609205
+ - LED OFF
+Humedad = 42.650471
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:28]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -157-
+- Byte 2: -145-
+- Byte 3: -311-
+Status= 0
+Temperatura = 25.609205
+ - LED OFF
+Humedad = 42.870224
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:31]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -133-
+- Byte 1: -224-
+- Byte 2: -145-
+- Byte 3: -315-
+Status= 0
+Temperatura = 25.619278
+ - LED OFF
+Humedad = 43.096081
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:34]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Escribimos 55 en el bus i2c para recibir la lectura del esclavo (comando START).
+Leemos 4 bytes del esclavo.
+- Byte 0: -134-
+- Byte 1: -45-
+- Byte 2: -145-
+- Byte 3: -321-
+Status= 0
+Temperatura = 25.629349
+ - LED OFF
+Humedad = 43.981197
+ - GREEN
+
+***************************************************************************************
+
+[3/11/2016 4:27:38]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Input/output error
+Error para adquirir acceso al bus y/o despertar al esclavo (comando RM).

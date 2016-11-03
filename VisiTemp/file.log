@@ -1,0 +1,18 @@
+
+Abrimos el puerto serie de la Raspberry a 115200 baudios
+ genieStup estado=0
+ custom_digits
+ led_digits
+ led_digits
+ GENIE_OBJ_KNOB
+ GENIE_OBJ_METER
+ GENIE_OBJ_ANGULAR_METER
+ GENIE_OBJ_USER_LED
+Escribimos 39 en el bus i2c para hablar con el esclavo.
+
+***************************************************************************************
+
+[3/11/2016 5:23:38]
+Escribimos 54 en el bus i2c para despertar al esclavo (comando RM).
+Input/output error
+Error para adquirir acceso al bus y/o despertar al esclavo (comando RM).
